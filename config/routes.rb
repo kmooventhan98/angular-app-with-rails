@@ -26,6 +26,10 @@ Rails.application.routes.draw do
   #     end
   #   end
 
+  Rails.application.routes.draw do
+    get 'example' => 'example#index'
+  end
+  
   # Example resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales

@@ -11,5 +11,20 @@
  * file per style scope.
  *
  *= require_tree .
+
  *= require_self
+ *= require jquery-ui/datepicker
+ *= require bootstrap
+ *= require animate
+ *= require font-awesome.min
+ *= require toaster
+ *= require simple-line-icons
+ *= require font
+ *= require app
+ *= require angular-busy
+ *= require angular-ui-select
+ *= require customize
+ *= require dataTables.bootstrap
+ *= require angular-datatables
+
  */
